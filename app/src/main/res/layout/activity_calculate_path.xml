@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F3E683"
+    android:background="@drawable/bg"
     tools:context=".CalculatePath">
 
     <Spinner
@@ -41,7 +41,10 @@
         android:layout_height="32dp"
         android:layout_marginTop="80dp"
         android:layout_marginBottom="8dp"
+        android:shadowColor="#FF9800"
         android:text="From : "
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/spinner"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.048"
@@ -51,11 +54,13 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="102dp"
-        android:layout_height="19dp"
+        android:layout_width="112dp"
+        android:layout_height="41dp"
         android:layout_marginTop="240dp"
         android:layout_marginBottom="8dp"
         android:text="To :"
+        android:textStyle="bold"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/spinner2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.051"
